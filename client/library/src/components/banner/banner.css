@@ -1,0 +1,19 @@
+.banner {
+    background: teal;
+    
+}
+
+.banner_content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.banner_close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
