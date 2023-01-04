@@ -9,6 +9,10 @@ const authRoutes = require("./routes/auth");
 //database connection
 connection();
 
+//routes
+app.use("/api/users", userRoutes);
+app.use("/api/auth", authRoutes);
+
 //middlewares
 app.use(express.json());
 app.use(cors());
